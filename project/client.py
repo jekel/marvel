@@ -1,11 +1,11 @@
-import time
 import hashlib
-from json import JSONDecodeError
 import os
+import time
+from json import JSONDecodeError
+
 import aiohttp
 
 from project.exceptions import NotFoundMarvellException, GenericMarvellException
-
 
 KEY = os.environ['KEY']
 SECRET = os.environ['SECRET']

@@ -1,5 +1,6 @@
 from aiohttp import web
 from aiohttp.web_response import json_response
+
 from project.client import MarvellClient
 
 routes = web.RouteTableDef()
